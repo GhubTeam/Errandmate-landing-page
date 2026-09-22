@@ -1,15 +1,20 @@
 <script setup>
-import { ref } from 'vue'
+import { ref } from 'vue';
+import customer from "./images/img-1.jpg";
+import runner from "./images/img-2.jpg";
+import merchant from "./images/img-3.jpg";
+import pickup from "./images/img-4.jpg";
+import delivery from "./images/img-5.jpg";
 
 const menuOpen = ref(false)
 const logo = 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/errandmate%20logo-vJdc90wFL0P4W3bGmSjrcuWdmnw5Dd.png'
 const images = {
   hero: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img-1-UVtfB4lxCIh0vQHfZityOjZup8xa1o.jpg',
-  customer: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img-5-O8L9xo5wEtUpAUKUfFDoRxBgsb9fbm.jpg',
-  runner: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img-6-w8INFBw6pbQ0EG1hdYBql3cCMIwhAM.jpg',
-  merchant: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img-4-eRbY6QpNoztqwZjT99vrrnhaeSbh3G.jpg',
-  pickup: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img-3-1tqf2WIjtxopQBB1NVGR0LC3y4Dqyj.jpg',
-  delivery: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img-2-uS7akkkEwNo1ZNwPfixNJh18xslW6X.jpg',
+  customer:customer,
+  runner: runner,
+  merchant: merchant,
+  pickup: pickup,
+  delivery: delivery
 }
 const navItems = ['How it works', 'Customers', 'Runners', 'Merchants']
 const roles = [
