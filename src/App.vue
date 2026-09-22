@@ -9,6 +9,7 @@ import commerce from "./images/img-6.jpg";
 import rider from "./images/img-7.jpg";
 import rider2 from "./images/img-9.jpg";
 import tracking from "./images/img-8.jpg";
+import createErrand from "./images/img-10.jpg"
 const menuOpen = ref(false)
 const logo = 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/errandmate%20logo-vJdc90wFL0P4W3bGmSjrcuWdmnw5Dd.png'
 const images = {
@@ -21,7 +22,8 @@ const images = {
   commerce : commerce,
   rider:rider,
   rider2:rider2,
-  tracking : tracking
+  tracking : tracking,
+  createErrand: createErrand
 }
 const navItems = ['How it works', 'Customers', 'Runners', 'Merchants']
 const roles = [
@@ -30,7 +32,7 @@ const roles = [
   { title: 'Merchants', heading: 'Grow with us.', text: 'Reach more customers and fulfill local orders with a reliable last-mile partner.', image: images.merchant, icon: '▦' },
 ]
 const steps = [
-  { number: '01', title: 'Create Your Errand', text: 'Choose what you need — shopping, pickup, delivery, merchant order or a custom errand.', image: images.customer, icon: '＋' },
+  { number: '01', title: 'Create Your Errand', text: 'Choose what you need — shopping, pickup, delivery, merchant order or a custom errand.', image: images.createErrand, icon: '＋' },
   { number: '02', title: 'Get Matched', text: 'ErrandMate connects your task with an available verified runner.', image: images.rider2, icon: '⌁' },
   { number: '03', title: 'Track Everything', text: 'Follow your runner and receive updates as your errand moves from pickup to completion.', image: images.pickup, icon: '◎' },
   { number: '04', title: 'Done.', text: 'Your errand is completed. Review the experience and get back to your day.', image: images.delivery, icon: '✓' },
